@@ -5,6 +5,14 @@
 
 class Processo
 {
+private:
+	int ID; 
+	string nomeProcesso;
+	bool estadoProcesso;
+public:
+	Processo();
+	Processo(int ID, string nomeProcesso, bool estadoProcesso);
+
 	// Tem variações
 };
 

@@ -1,58 +1,68 @@
 #include "Usuario.h"
+#include "Kernel.h"
+
 
 Usuario::Usuario()
 {
-	cout << "Crie uma conta" << endl;
+	cout << "Crie um Usuario" << endl;
 
 	cout << "Usuario: " ;
 	cin.ignore(); // Limpa qualquer \n residual no buffer
-	getline(cin, NomeUsuario);
+	getline(cin, nomeUsuario);
 
 	cout << "Login: ";
-	getline(cin, Login);
+	getline(cin, login);
 
 	cout << "Senha: ";
-	getline(cin, Senha);
+	getline(cin, senha);
 }
 
-Usuario::Usuario(string NomeUsuario, string Login, string Senha)
+void Usuario::setKernel(Kernel* kernel) {
+	this->kernel = kernel;
+}
+
+Usuario::Usuario(string nomeUsuario, string login, string senha)
 {
 	cout << "Usuario Criado!" << endl;
-	this->NomeUsuario = NomeUsuario;
-	this->Login = Login;
-	this->Senha = Senha;
+	this->nomeUsuario = nomeUsuario;
+	this->login = login;
+	this->senha = senha;
+}
+
+void Usuario::solicitaProcesso(string nomeProcesso) {
+	kernel->criarProcesso(nomeProcesso);
 }
 
 string Usuario::getNomeUsuario()
 {
-	return this->NomeUsuario;
+	return this->nomeUsuario;
 }
 
 string Usuario::getLogin()
 {
-	return this->Login;
+	return this->login;
 }
 
 string Usuario::getSenha()
 {
-	return this->Senha;
+	return this->senha;
 }
 
 void Usuario::setNomeUsuario(string NomeUsuario)
 {
-	this->NomeUsuario = NomeUsuario;
+	this->nomeUsuario = NomeUsuario;
 }
-void Usuario::setLogin(string Login)
+void Usuario::setLogin(string login)
 {
-	this->Login = Login;
+	this->login = login;
 }
-void Usuario::setSenha(string Senha)
+void Usuario::setSenha(string senha)
 {
-	this->Senha = Senha;
+	this->senha = senha;
 }
 
 void Usuario::ExibirUsuario()
 {
-	cout << "Usuario: " << this->NomeUsuario;
+	cout << "Usuario: " << this->nomeUsuario;
 }
 

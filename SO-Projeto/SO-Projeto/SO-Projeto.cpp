@@ -10,8 +10,15 @@
 
 int main()
 {
-    Kernel K1; // Sistema Operacional
-    K1.exibirKernel();
+    Kernel meuSO; // Sistema Operacional
+    //meuSO.criarUsuario(); // Criação de um segundo usuario
+    //meuSO.exibirListaUsuarios();
+    vector<Usuario*> usuarioCriados = meuSO.listaUsuarios();
+    //usuarioCriados[1]->ExibirUsuario();
+    usuarioCriados[0]->solicitaProcesso("Abrir Explorador de Arquivos");
+    usuarioCriados[0]->solicitaProcesso("Abrir Google Chrome");
+    usuarioCriados[0]->solicitaProcesso("Abrir Bloco de Notas");
+
     return 0;
 }
 

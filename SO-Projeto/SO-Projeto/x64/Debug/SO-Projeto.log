@@ -1,4 +1,5 @@
-﻿  Recurso.cpp
-  Kernel.cpp
-C:\Users\lucas\OneDrive\Imagens\APOOII\SO-Projeto\SO-Projeto\Kernel.cpp(9,2): error C2065: 'usuario': identificador não declarado
+﻿  Kernel.cpp
+  SO-Projeto.cpp
+  Usuario.cpp
   Gerando Código...
+  SO-Projeto.vcxproj -> C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\x64\Debug\SO-Projeto.exe
