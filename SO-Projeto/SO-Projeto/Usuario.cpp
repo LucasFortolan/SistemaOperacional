@@ -4,7 +4,7 @@
 
 Usuario::Usuario()
 {
-	cout << "Crie um Usuario" << endl;
+	cout << "======= Crie um Usuario =======" << endl;
 
 	cout << "Usuario: " ;
 	cin.ignore(); // Limpa qualquer \n residual no buffer
@@ -15,6 +15,7 @@ Usuario::Usuario()
 
 	cout << "Senha: ";
 	getline(cin, senha);
+
 }
 
 void Usuario::setKernel(Kernel* kernel) {
@@ -61,7 +62,7 @@ void Usuario::setSenha(string senha)
 	this->senha = senha;
 }
 
-void Usuario::ExibirUsuario()
+void Usuario::exibirUsuario()
 {
 	cout << "Usuario: " << this->nomeUsuario;
 }

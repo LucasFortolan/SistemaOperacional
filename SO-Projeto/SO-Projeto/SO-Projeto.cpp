@@ -18,6 +18,7 @@ int main()
     usuarioCriados[0]->solicitaProcesso("Abrir Explorador de Arquivos");
     usuarioCriados[0]->solicitaProcesso("Abrir Google Chrome");
     usuarioCriados[0]->solicitaProcesso("Abrir Bloco de Notas");
+    meuSO.exibirListaProcesso();
 
     return 0;
 }

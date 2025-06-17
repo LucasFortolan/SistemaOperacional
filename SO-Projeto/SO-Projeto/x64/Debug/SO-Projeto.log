@@ -1,5 +1,5 @@
 ﻿  Kernel.cpp
-  SO-Projeto.cpp
-  Usuario.cpp
+C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\SO-Projeto\Kernel.cpp(21,9): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+  Processo.cpp
   Gerando Código...
   SO-Projeto.vcxproj -> C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\x64\Debug\SO-Projeto.exe

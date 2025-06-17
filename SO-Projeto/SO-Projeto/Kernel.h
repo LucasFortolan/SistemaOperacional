@@ -18,14 +18,14 @@ private:
     Recurso recurso;            // Composição
     vector<Usuario*> usuarios;            // Composição
     Escalonador escalonador;    // Composição
-    Processo processo;          // Composição
-    //vector<vector<int>> TabelaProcessos; // Sabe o estado
-
+    vector<Processo*> tabelaProcessos; // Sabe o estado
+    //vector<vector<int>> tabelaProcessos; // Sabe o estado
 public:
     Kernel();
     //void exibirKernel();
     void criarUsuario();
     void criarProcesso(string nome);
+    void exibirListaProcesso();
     void exibirListaUsuarios();
     vector<Usuario*> listaUsuarios();
 

@@ -8,11 +8,13 @@ class Processo
 private:
 	int ID; 
 	string nomeProcesso;
-	bool estadoProcesso;
+	string estadoProcesso;
+	float tempoProcesso;
 public:
 	Processo();
-	Processo(int ID, string nomeProcesso, bool estadoProcesso);
-
+	Processo(int ID, string nomeProcesso, string estadoProcesso, float tempoProcesso);
+	string getNomeProcesso();
+	string getEstadoProcesso();
 	// Tem variações
 };
 
