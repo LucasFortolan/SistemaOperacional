@@ -1,2 +1,3 @@
-﻿  SO-Projeto.cpp
+﻿  Escalonador.cpp
+C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\SO-Projeto\Escalonador.cpp(27,11): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
   SO-Projeto.vcxproj -> C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\x64\Debug\SO-Projeto.exe

@@ -12,7 +12,7 @@ void Escalonador::fifo()
     }
     float tempoAcumulado = 0;
     for (Processo* p : kernel->getTabelaProcessos()) {
-        cout << "Executando processo: " << p->getNomeProcesso() << " | Tempo " << p->getTempoProcesso() << endl;
+        cout << "Executando processo: " << p->getNomeProcesso() << " | Tempo: " << p->getTempoProcesso() << endl;
         tempoAcumulado += p->getTempoProcesso();
     }
     cout << "Tempo Acumulado: " << tempoAcumulado << endl;
@@ -42,7 +42,7 @@ void Escalonador::sjf()
 
     float tempoAcumulado = 0;
     for (Processo* p : processosSJF) {
-        cout << "Executando processo: " << p->getNomeProcesso() << " | Tempo " << p->getTempoProcesso() << endl;
+        cout << "Executando processo: " << p->getNomeProcesso() << " | Tempo: " << p->getTempoProcesso() << endl;
         tempoAcumulado += p->getTempoProcesso();
     }
     cout << "Tempo Acumulado: " << tempoAcumulado << endl;

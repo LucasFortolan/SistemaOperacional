@@ -22,6 +22,7 @@ private:
     vector<Processo*> tabelaProcessos; // Sabe o estado
     //vector<vector<int>> tabelaProcessos; // Sabe o estado
 public:
+
     Kernel();
     void criarUsuario();
     void criarProcesso(string nome);

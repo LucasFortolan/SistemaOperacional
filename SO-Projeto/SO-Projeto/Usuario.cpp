@@ -4,16 +4,39 @@
 Usuario::Usuario()
 {
 	cout << "======= Crie um Usuario =======" << endl;
-	cin.ignore(); // Limpa qualquer \n residual no buffer
-	cout << "Usuario: " ;
-	getline(cin, nomeUsuario);
+	while (true) {
+		cout << "Usuario: ";
+		getline(cin, nomeUsuario);
+		if (nomeUsuario.empty() || nomeUsuario.find_first_not_of(' ') == string::npos) {
+			cout << "Nome do Usuario invalido (vazio ou so tem espacos). Tente novamente." << endl;
+		}
+		else {
+			
+			break;
+		}
+	}
+	
+	while (true) {
+		cout << "Login: ";
+		getline(cin, login);
+		if (login.empty() || login.find_first_not_of(' ') == string::npos) {
+			cout << "Login invalido (vazio ou so tem espacos). Tente novamente." << endl;
+		}
+		else {	
+			break;
+		}
+	}
 
-	cout << "Login: ";
-	getline(cin, login);
-
-	cout << "Senha: ";
-	getline(cin, senha);
-
+	while (true) {
+		cout << "Senha: ";
+		getline(cin, senha);
+		if (senha.empty() || senha.find_first_not_of(' ') == string::npos) {
+			cout << "Senha invalido (vazio ou so tem espacos). Tente novamente." << endl;
+		}
+		else {
+			break;
+		}
+	}
 }
 
 void Usuario::setKernel(Kernel* kernel) {
