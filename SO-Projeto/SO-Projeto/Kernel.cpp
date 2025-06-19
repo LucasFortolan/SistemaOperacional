@@ -19,7 +19,8 @@ void Kernel::criarUsuario()
 void Kernel::criarProcesso(string nome)
 {
 	int ID = tabelaProcessos.size();
-	Processo* novoProcesso = new Processo(ID, nome, "Aguardando", 50);
+	float tempoProcesso = rand() % 101;
+	Processo* novoProcesso = new Processo(ID, nome, "Aguardando", tempoProcesso);
 	tabelaProcessos.push_back(novoProcesso);
 }
 
@@ -29,11 +30,6 @@ void Kernel::exibirListaProcesso()
 	for (Processo* p : tabelaProcessos) {
 		cout << "Processo: " << p->getNomeProcesso() << endl;
 	}
-}
-
-void exibirKernel() {
-	cout << "Exibir Kernel" << endl;
-	//usuario.getNome();
 }
 
  void Kernel::exibirListaUsuarios() {

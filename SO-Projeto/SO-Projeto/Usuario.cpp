@@ -1,13 +1,11 @@
 #include "Usuario.h"
 #include "Kernel.h"
 
-
 Usuario::Usuario()
 {
 	cout << "======= Crie um Usuario =======" << endl;
-
-	cout << "Usuario: " ;
 	cin.ignore(); // Limpa qualquer \n residual no buffer
+	cout << "Usuario: " ;
 	getline(cin, nomeUsuario);
 
 	cout << "Login: ";

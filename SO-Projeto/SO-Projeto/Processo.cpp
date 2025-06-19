@@ -20,3 +20,8 @@ string Processo::getEstadoProcesso()
 {
 	return this->estadoProcesso;
 }
+
+float Processo::getTempoProcesso()
+{
+	return this->tempoProcesso;
+}

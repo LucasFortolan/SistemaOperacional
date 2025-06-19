@@ -15,6 +15,7 @@ public:
 	Processo(int ID, string nomeProcesso, string estadoProcesso, float tempoProcesso);
 	string getNomeProcesso();
 	string getEstadoProcesso();
+	float getTempoProcesso();
 	// Tem variações
 };
 

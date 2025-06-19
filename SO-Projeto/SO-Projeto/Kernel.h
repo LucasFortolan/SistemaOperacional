@@ -22,11 +22,10 @@ private:
     //vector<vector<int>> tabelaProcessos; // Sabe o estado
 public:
     Kernel();
-    //void exibirKernel();
     void criarUsuario();
     void criarProcesso(string nome);
-    void exibirListaProcesso();
     void exibirListaUsuarios();
+    void exibirListaProcesso();
     vector<Usuario*> listaUsuarios();
 
 };
