@@ -50,21 +50,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Processo.cpp",
-              "DocumentMoniker": "C:\\Users\\lucas\\AndroidStudioProjects\\EcoChallenge\\SistemaOperacional\\SO-Projeto\\SO-Projeto\\Processo.cpp",
-              "RelativeDocumentMoniker": "SO-Projeto\\Processo.cpp",
-              "ToolTip": "C:\\Users\\lucas\\AndroidStudioProjects\\EcoChallenge\\SistemaOperacional\\SO-Projeto\\SO-Projeto\\Processo.cpp",
-              "RelativeToolTip": "SO-Projeto\\Processo.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-17T01:06:01.548Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -75,8 +62,7 @@
               "RelativeToolTip": "SO-Projeto\\Kernel.h",
               "ViewState": "AgIAAA0AAAAAAAAAAIAwwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-22T10:27:26.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T10:27:26.602Z"
             },
             {
               "$type": "Document",
@@ -88,8 +74,7 @@
               "RelativeToolTip": "SO-Projeto\\Kernel.cpp",
               "ViewState": "AgIAADAAAAAAAAAAAAAgwDwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-17T01:06:41.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T01:06:41.822Z"
             },
             {
               "$type": "Document",
@@ -99,10 +84,22 @@
               "RelativeDocumentMoniker": "SO-Projeto\\SO-Projeto.cpp",
               "ToolTip": "C:\\Users\\lucas\\AndroidStudioProjects\\EcoChallenge\\SistemaOperacional\\SO-Projeto\\SO-Projeto\\SO-Projeto.cpp",
               "RelativeToolTip": "SO-Projeto\\SO-Projeto.cpp",
-              "ViewState": "AgIAAAQAAAAAAAAAAIAwwBYAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-17T01:06:45.11Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Processo.cpp",
+              "DocumentMoniker": "C:\\Users\\lucas\\AndroidStudioProjects\\EcoChallenge\\SistemaOperacional\\SO-Projeto\\SO-Projeto\\Processo.cpp",
+              "RelativeDocumentMoniker": "SO-Projeto\\Processo.cpp",
+              "ToolTip": "C:\\Users\\lucas\\AndroidStudioProjects\\EcoChallenge\\SistemaOperacional\\SO-Projeto\\SO-Projeto\\Processo.cpp",
+              "RelativeToolTip": "SO-Projeto\\Processo.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-17T01:06:01.548Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "SO-Projeto\\Recurso.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-17T01:06:43.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T01:06:43.846Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "SO-Projeto\\Escalonador.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-19T01:19:08.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-19T01:19:08.573Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "SO-Projeto\\Escalonador.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAgwBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-17T01:07:11.096Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T01:07:11.096Z"
             },
             {
               "$type": "Document",
@@ -153,8 +147,7 @@
               "RelativeToolTip": "SO-Projeto\\Processo.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-17T00:59:07.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-17T00:59:07.173Z"
             },
             {
               "$type": "Document",
@@ -166,12 +159,7 @@
               "RelativeToolTip": "SO-Projeto\\Usuario.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-17T00:51:35.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d3750d8a-574b-4fb3-b7e2-aa8af40e8231}"
+              "WhenOpened": "2025-06-17T00:51:35.857Z"
             },
             {
               "$type": "Document",
