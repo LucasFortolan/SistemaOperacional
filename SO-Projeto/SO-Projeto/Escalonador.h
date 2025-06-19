@@ -2,10 +2,21 @@
 #define ESCALONADOR_H
 
 #include "Includes.h"
+#include "Kernel.h"
+#include "Usuario.h"
+
+class Usuario; 
+class Kernel;
 
 class Escalonador
 {
-	// Modelo de Processo
+private:
+	vector<Usuario*> usuarios;            // Composição
+	Kernel* kernel;    // Composição
+public:
+	Escalonador(Kernel* k); // Construtor recebe um ponteiro
+	void fifo();
+	void sjf();
 };
 
 #endif // !ESCALONADOR_H

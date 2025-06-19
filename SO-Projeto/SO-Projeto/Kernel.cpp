@@ -4,6 +4,7 @@ Kernel::Kernel()
 {
 	cout << "Sistema Operacional Instalado com Sucesso!" << endl;
 	criarUsuario();
+	escalonador = new Escalonador(this); // Passa o próprio kernel
 }
 
 void Kernel::criarUsuario()
@@ -26,10 +27,15 @@ void Kernel::criarProcesso(string nome)
 
 void Kernel::exibirListaProcesso()
 {
-	cout << "Lista de Processos: " << endl;
+	cout << "\nLista de Processos: " << endl;
 	for (Processo* p : tabelaProcessos) {
 		cout << "Processo: " << p->getNomeProcesso() << endl;
 	}
+}
+
+vector<Processo*> Kernel::getTabelaProcessos()
+{
+	return tabelaProcessos;
 }
 
  void Kernel::exibirListaUsuarios() {
@@ -46,3 +52,11 @@ void Kernel::exibirListaProcesso()
  vector<Usuario*> Kernel::listaUsuarios() {
 	 return usuarios;
  }
+
+void Kernel::escalonarFIFO() {
+	escalonador->fifo();
+}
+
+void Kernel::escalonarSJF() {
+	escalonador->sjf();
+}

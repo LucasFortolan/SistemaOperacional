@@ -10,14 +10,15 @@
 #include "Processo.h"
 
 class Usuario;
+class Escalonador;
 
 // Definição da classe Kernel
 class Kernel
 {
 private:
-    Recurso recurso;            // Composição
+    Recurso* recurso;            // Composição
     vector<Usuario*> usuarios;            // Composição
-    Escalonador escalonador;    // Composição
+    Escalonador* escalonador;    // Composição
     vector<Processo*> tabelaProcessos; // Sabe o estado
     //vector<vector<int>> tabelaProcessos; // Sabe o estado
 public:
@@ -26,7 +27,11 @@ public:
     void criarProcesso(string nome);
     void exibirListaUsuarios();
     void exibirListaProcesso();
+    vector<Processo*> getTabelaProcessos();
     vector<Usuario*> listaUsuarios();
+
+    void escalonarFIFO();
+    void escalonarSJF();
 
 };
 #endif // !KERNEL_H
