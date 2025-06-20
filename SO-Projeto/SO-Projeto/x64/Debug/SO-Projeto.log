@@ -1,3 +1,10 @@
 ﻿  Escalonador.cpp
 C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\SO-Projeto\Escalonador.cpp(27,11): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+  Kernel.cpp
+C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\SO-Projeto\Kernel.cpp(22,9): warning C4267: 'inicializando': conversão de 'size_t' para 'int', possível perda de dados
+C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\SO-Projeto\Kernel.cpp(23,22): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+  SO-Projeto.cpp
+C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\SO-Projeto\SO-Projeto.cpp(15,15): warning C4244: 'argumento': conversão de 'time_t' para 'unsigned int', possível perda de dados
+  Usuario.cpp
+  Gerando Código...
   SO-Projeto.vcxproj -> C:\Users\lucas\AndroidStudioProjects\EcoChallenge\SistemaOperacional\SO-Projeto\x64\Debug\SO-Projeto.exe

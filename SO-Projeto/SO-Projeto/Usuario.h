@@ -11,12 +11,10 @@ class Kernel;
 // Usuario.h
 class Usuario {
 private:
-    //Escalonador* escalonador; // Agregação (ponteiro)
-    //Processo* processo; // Agregação (ponteiro)
     Kernel* kernel;
     string nomeUsuario;
     string login;
-    string senha; // Melhoria: hash senha
+    string senha;
 public:
     Usuario();
     Usuario(string nomeUsuario, string login, string senha);

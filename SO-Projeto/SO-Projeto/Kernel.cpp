@@ -29,7 +29,7 @@ void Kernel::exibirListaProcesso()
 {
 	cout << "\nLista de Processos: " << endl;
 	for (Processo* p : tabelaProcessos) {
-		cout << "Processo: " << p->getNomeProcesso() << endl;
+		cout << "Processo: " << p->getNomeProcesso() <<  " | Tempo: " << p->getTempoProcesso() << endl;
 	}
 }
 

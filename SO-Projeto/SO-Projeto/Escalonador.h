@@ -11,7 +11,6 @@ class Kernel;
 class Escalonador
 {
 private:
-	vector<Usuario*> usuarios;            // Composição
 	Kernel* kernel;    // Composição
 public:
 	Escalonador(Kernel* k); // Construtor recebe um ponteiro
