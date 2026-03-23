@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "nome_completo": "Lucas Fortolan Sampaio",
+        "cpf": "",
+        "celular": "",
+        "professor_nome": "Izaac",
+        "valor_mensalidade": 165.0,
+        "cadastrado_em": "07/07/2025",
+        "pagamentos": {
+            "JULHO": false,
+            "AGOSTO": false,
+            "SETEMBRO": false,
+            "OUTUBRO": false,
+            "NOVEMBRO": false,
+            "DEZEMBRO": false
+        }
+    },
+    {
+        "id": 2,
+        "nome_completo": "Leandro",
+        "cpf": "1515464",
+        "celular": "19949949797",
+        "professor_nome": "Thais",
+        "valor_mensalidade": 170.0,
+        "cadastrado_em": "07/07/2025",
+        "pagamentos": {
+            "JULHO": false,
+            "AGOSTO": false,
+            "SETEMBRO": false,
+            "OUTUBRO": false,
+            "NOVEMBRO": false,
+            "DEZEMBRO": false
+        }
+    },
+    {
+        "id": 3,
+        "nome_completo": "Matheys",
+        "cpf": "12491",
+        "celular": "1241",
+        "professor_nome": "Izaac",
+        "valor_mensalidade": 180.0,
+        "cadastrado_em": "07/07/2025",
+        "pagamentos": {
+            "JULHO": false,
+            "AGOSTO": false,
+            "SETEMBRO": false,
+            "OUTUBRO": false,
+            "NOVEMBRO": false,
+            "DEZEMBRO": false
+        }
+    }
+]

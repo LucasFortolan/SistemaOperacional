@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nome_completo": "Izaac",
+        "comissao_percentual": 65.0,
+        "cpf": "",
+        "chave_pix": ""
+    },
+    {
+        "id": 2,
+        "nome_completo": "Thais",
+        "comissao_percentual": 50.0,
+        "cpf": "1246464564",
+        "chave_pix": "199997821735"
+    },
+    {
+        "id": 3,
+        "nome_completo": "Thalita",
+        "comissao_percentual": 40.0,
+        "cpf": "12421091214190",
+        "chave_pix": "1912941819"
+    },
+    {
+        "id": 4,
+        "nome_completo": "Lais",
+        "comissao_percentual": 50.0,
+        "cpf": "12124",
+        "chave_pix": "123"
+    },
+    {
+        "id": 5,
+        "nome_completo": "Rafael",
+        "comissao_percentual": 400.0,
+        "cpf": "1241",
+        "chave_pix": "14241"
+    },
+    {
+        "id": 6,
+        "nome_completo": "Juliana",
+        "comissao_percentual": 16.0,
+        "cpf": "12412",
+        "chave_pix": "1241241"
+    }
+]
